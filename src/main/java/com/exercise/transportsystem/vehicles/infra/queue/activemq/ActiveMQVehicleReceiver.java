@@ -1,6 +1,7 @@
 package com.exercise.transportsystem.vehicles.infra.queue.activemq;
 
 import com.exercise.transportsystem.domain.message.MessageLocationUpdate;
+import com.exercise.transportsystem.vehicles.domain.messages.VehicleMessages;
 import com.exercise.transportsystem.vehicles.domain.repository.VehicleRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -12,12 +13,12 @@ import reactor.core.scheduler.Schedulers;
 @Component
 @Slf4j
 @RequiredArgsConstructor
-public class ActiveMQReceiver {
+public class ActiveMQVehicleReceiver implements VehicleMessages {
 
     private final VehicleRepository vehicleRepository;
 
     @JmsListener(destination = "location", containerFactory = "exampleFactory")
-    public void receiveMessage(MessageLocationUpdate locMsg) {
+    public void receiveLocationUpdate(MessageLocationUpdate locMsg) {
         Mono.defer(() -> vehicleRepository.findById(locMsg.getVehicleId())
                 .flatMap(vehicle -> {
                     vehicle.setCoordinates(locMsg.getCoordinates());
