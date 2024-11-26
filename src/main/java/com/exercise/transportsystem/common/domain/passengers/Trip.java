@@ -1,4 +1,4 @@
-package com.exercise.transportsystem.domain.passengers;
+package com.exercise.transportsystem.common.domain.passengers;
 
 import lombok.Data;
 

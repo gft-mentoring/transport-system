@@ -1,6 +1,6 @@
-package com.exercise.transportsystem.domain.routes;
+package com.exercise.transportsystem.common.domain.routes;
 
-import com.exercise.transportsystem.domain.Coordinates;
+import com.exercise.transportsystem.common.domain.Coordinates;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.With;

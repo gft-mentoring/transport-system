@@ -1,7 +1,7 @@
 package com.exercise.transportsystem.vehicles.infra.persistence.mongodb.mapper;
 
-import com.exercise.transportsystem.domain.vehicle.Driver;
-import com.exercise.transportsystem.domain.vehicle.Vehicle;
+import com.exercise.transportsystem.common.domain.vehicle.Driver;
+import com.exercise.transportsystem.common.domain.vehicle.Vehicle;
 import com.exercise.transportsystem.vehicles.infra.persistence.mongodb.document.DriverDocument;
 import com.exercise.transportsystem.vehicles.infra.persistence.mongodb.document.VehicleDocument;
 import org.mapstruct.Mapper;

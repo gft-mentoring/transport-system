@@ -1,6 +1,6 @@
 package com.exercise.transportsystem.vehicles.domain.exception;
 
-import com.exercise.transportsystem.domain.exception.DomainException;
+import com.exercise.transportsystem.common.domain.exception.DomainException;
 
 public class VehiclesDomainException extends DomainException {
 

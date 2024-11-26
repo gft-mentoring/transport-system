@@ -1,4 +1,4 @@
-package com.exercise.transportsystem.domain.routes;
+package com.exercise.transportsystem.common.domain.routes;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

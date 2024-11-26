@@ -1,6 +1,6 @@
-package com.exercise.transportsystem.domain.message;
+package com.exercise.transportsystem.common.domain.queue.message;
 
-import com.exercise.transportsystem.domain.Coordinates;
+import com.exercise.transportsystem.common.domain.Coordinates;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 

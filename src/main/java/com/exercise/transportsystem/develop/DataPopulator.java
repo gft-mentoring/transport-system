@@ -1,9 +1,9 @@
 package com.exercise.transportsystem.develop;
 
-import com.exercise.transportsystem.domain.passengers.Passenger;
-import com.exercise.transportsystem.domain.routes.Route;
-import com.exercise.transportsystem.domain.vehicle.Driver;
-import com.exercise.transportsystem.domain.vehicle.Vehicle;
+import com.exercise.transportsystem.common.domain.passengers.Passenger;
+import com.exercise.transportsystem.common.domain.routes.Route;
+import com.exercise.transportsystem.common.domain.vehicle.Driver;
+import com.exercise.transportsystem.common.domain.vehicle.Vehicle;
 import com.exercise.transportsystem.passengers.domain.repository.PassengerRepository;
 import com.exercise.transportsystem.routes.domain.repository.RouteRepository;
 import com.exercise.transportsystem.vehicles.domain.repository.VehicleRepository;

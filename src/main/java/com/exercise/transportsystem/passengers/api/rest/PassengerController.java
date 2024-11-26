@@ -1,7 +1,7 @@
 package com.exercise.transportsystem.passengers.api.rest;
 
-import com.exercise.transportsystem.domain.passengers.Passenger;
-import com.exercise.transportsystem.domain.passengers.Trip;
+import com.exercise.transportsystem.common.domain.passengers.Passenger;
+import com.exercise.transportsystem.common.domain.passengers.Trip;
 import com.exercise.transportsystem.passengers.domain.exception.PassengersDomainException;
 import com.exercise.transportsystem.passengers.domain.repository.PassengerRepository;
 import lombok.RequiredArgsConstructor;
