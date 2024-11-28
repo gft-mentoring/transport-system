@@ -1,7 +1,7 @@
 package com.exercise.transportsystem.vehicles.domain.repository;
 
-import com.exercise.transportsystem.domain.vehicle.Vehicle;
-import com.exercise.transportsystem.domain.vehicle.VehicleStatus;
+import com.exercise.transportsystem.common.domain.vehicle.Vehicle;
+import com.exercise.transportsystem.common.domain.vehicle.VehicleStatus;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 import reactor.util.function.Tuple2;

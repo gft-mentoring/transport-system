@@ -1,8 +1,8 @@
 package com.exercise.transportsystem.vehicles.infra.persistence.mongodb.document;
 
-import com.exercise.transportsystem.domain.Coordinates;
-import com.exercise.transportsystem.domain.vehicle.VehicleStatus;
-import com.exercise.transportsystem.domain.vehicle.VehicleType;
+import com.exercise.transportsystem.common.domain.Coordinates;
+import com.exercise.transportsystem.common.domain.vehicle.VehicleStatus;
+import com.exercise.transportsystem.common.domain.vehicle.VehicleType;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.ToString;

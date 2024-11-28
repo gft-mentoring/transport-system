@@ -1,11 +1,10 @@
-package com.exercise.transportsystem.domain.vehicle;
+package com.exercise.transportsystem.common.domain.vehicle;
 
-import com.exercise.transportsystem.domain.Coordinates;
+import com.exercise.transportsystem.common.domain.Coordinates;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.*;
 import lombok.experimental.Accessors;
 
-import java.io.Serializable;
 import java.time.LocalDate;
 import java.time.LocalTime;
 

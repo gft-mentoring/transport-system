@@ -1,6 +1,6 @@
 package com.exercise.transportsystem.passengers.infra.persistence.mongodb.document;
 
-import com.exercise.transportsystem.domain.passengers.Trip;
+import com.exercise.transportsystem.common.domain.passengers.Trip;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.experimental.Accessors;

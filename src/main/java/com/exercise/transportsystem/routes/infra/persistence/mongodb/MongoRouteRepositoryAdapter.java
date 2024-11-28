@@ -1,6 +1,6 @@
 package com.exercise.transportsystem.routes.infra.persistence.mongodb;
 
-import com.exercise.transportsystem.domain.routes.Route;
+import com.exercise.transportsystem.common.domain.routes.Route;
 import com.exercise.transportsystem.routes.domain.exception.RoutesDomainException;
 import com.exercise.transportsystem.routes.domain.repository.RouteRepository;
 import com.exercise.transportsystem.routes.infra.persistence.mongodb.mapper.RouteMapper;

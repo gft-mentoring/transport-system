@@ -1,6 +1,6 @@
 package com.exercise.transportsystem.routes.domain.repository;
 
-import com.exercise.transportsystem.domain.routes.Route;
+import com.exercise.transportsystem.common.domain.routes.Route;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 import reactor.util.function.Tuple2;

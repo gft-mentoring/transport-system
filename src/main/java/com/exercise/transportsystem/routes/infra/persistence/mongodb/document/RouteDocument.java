@@ -1,8 +1,8 @@
 package com.exercise.transportsystem.routes.infra.persistence.mongodb.document;
 
 
-import com.exercise.transportsystem.domain.routes.Schedule;
-import com.exercise.transportsystem.domain.routes.Stop;
+import com.exercise.transportsystem.common.domain.routes.Schedule;
+import com.exercise.transportsystem.common.domain.routes.Stop;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.experimental.Accessors;

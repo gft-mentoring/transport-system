@@ -1,6 +1,6 @@
 package com.exercise.transportsystem.routes.domain.exception;
 
-import com.exercise.transportsystem.domain.exception.DomainException;
+import com.exercise.transportsystem.common.domain.exception.DomainException;
 
 public class RoutesDomainException extends DomainException {
 

@@ -1,4 +1,4 @@
-package com.exercise.transportsystem.domain.exception;
+package com.exercise.transportsystem.common.domain.exception;
 
 public class DomainException extends RuntimeException {
 

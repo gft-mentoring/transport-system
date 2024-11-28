@@ -1,6 +1,6 @@
 package com.exercise.transportsystem.passengers.infra.persistence.mongodb.mapper;
 
-import com.exercise.transportsystem.domain.passengers.Passenger;
+import com.exercise.transportsystem.common.domain.passengers.Passenger;
 import com.exercise.transportsystem.passengers.infra.persistence.mongodb.document.PassengerDocument;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;

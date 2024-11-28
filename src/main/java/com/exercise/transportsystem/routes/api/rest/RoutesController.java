@@ -1,6 +1,6 @@
 package com.exercise.transportsystem.routes.api.rest;
 
-import com.exercise.transportsystem.domain.routes.Route;
+import com.exercise.transportsystem.common.domain.routes.Route;
 import com.exercise.transportsystem.routes.domain.exception.RoutesDomainException;
 import com.exercise.transportsystem.routes.domain.repository.RouteRepository;
 import lombok.RequiredArgsConstructor;

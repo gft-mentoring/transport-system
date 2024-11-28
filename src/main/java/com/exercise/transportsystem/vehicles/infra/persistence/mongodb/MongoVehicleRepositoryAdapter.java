@@ -1,7 +1,7 @@
 package com.exercise.transportsystem.vehicles.infra.persistence.mongodb;
 
-import com.exercise.transportsystem.domain.vehicle.Vehicle;
-import com.exercise.transportsystem.domain.vehicle.VehicleStatus;
+import com.exercise.transportsystem.common.domain.vehicle.Vehicle;
+import com.exercise.transportsystem.common.domain.vehicle.VehicleStatus;
 import com.exercise.transportsystem.vehicles.domain.exception.VehiclesDomainException;
 import com.exercise.transportsystem.vehicles.domain.repository.VehicleRepository;
 import com.exercise.transportsystem.vehicles.infra.persistence.mongodb.document.DriverDocument;

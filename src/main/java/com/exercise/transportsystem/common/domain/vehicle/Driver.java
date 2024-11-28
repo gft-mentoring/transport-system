@@ -1,4 +1,4 @@
-package com.exercise.transportsystem.domain.vehicle;
+package com.exercise.transportsystem.common.domain.vehicle;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

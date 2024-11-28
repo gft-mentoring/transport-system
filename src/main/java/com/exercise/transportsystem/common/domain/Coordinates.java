@@ -1,4 +1,4 @@
-package com.exercise.transportsystem.domain;
+package com.exercise.transportsystem.common.domain;
 
 import java.io.Serializable;
 
