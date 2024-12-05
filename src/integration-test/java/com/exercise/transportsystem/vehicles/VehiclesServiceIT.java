@@ -1,8 +1,8 @@
 package com.exercise.transportsystem.vehicles;
 
 import com.exercise.transportsystem.develop.DataPopulator;
-import com.exercise.transportsystem.domain.vehicle.Vehicle;
-import com.exercise.transportsystem.domain.vehicle.VehicleStatus;
+import com.exercise.transportsystem.common.domain.vehicle.Vehicle;
+import com.exercise.transportsystem.common.domain.vehicle.VehicleStatus;
 import org.assertj.core.api.WithAssertions;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.ParameterizedTest;
