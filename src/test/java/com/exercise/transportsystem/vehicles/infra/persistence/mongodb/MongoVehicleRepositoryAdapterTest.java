@@ -11,6 +11,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.junit.jupiter.MockitoExtension;
+import org.mockito.verification.VerificationMode;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
@@ -22,8 +23,7 @@ import reactor.util.function.Tuple2;
 import java.sql.SQLException;
 
 import static org.junit.jupiter.api.Assertions.*;
-import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.when;
+import static org.mockito.Mockito.*;
 
 @SpringBootTest()
 @ExtendWith(MockitoExtension.class)
@@ -155,6 +155,10 @@ class MongoVehicleRepositoryAdapterTest {
                 .expectComplete()
                 .verify();
 
+        verify(vehicleRepo, atMostOnce()).findById(TestData.bus1.getPlateId());
+        verify(driverRepo, atMostOnce()).findById(TestData.driver1.getEmail());
+        verify(driverRepo, atMostOnce()).save(TestData.driver1Document);
+        verify(vehicleRepo, atMostOnce()).deleteById(TestData.bus1.getPlateId());
     }
 
     @Test
@@ -169,5 +173,7 @@ class MongoVehicleRepositoryAdapterTest {
                 .expectComplete()
                 .verify();
 
+        verify(driverRepo, atMostOnce()).deleteAll();
+        verify(vehicleRepo, atMostOnce()).deleteAll();
     }
 }
